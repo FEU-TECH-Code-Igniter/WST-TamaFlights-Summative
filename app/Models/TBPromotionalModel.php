@@ -16,7 +16,7 @@ class TBPromotionalModel extends Model
         'content',    
     ];
 
-    proctected $returnType = 'array';
+    protected $returnType = 'array';
     protected $useTimestamps = true;
 }
 
