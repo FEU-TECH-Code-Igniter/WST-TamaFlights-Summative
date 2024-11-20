@@ -9,7 +9,7 @@
         <tr>
             <th>Flight ID</th>
             <th>Depart to</th>
-            <th>Domestic or International</th>
+            <th>Description</th>
         </tr>
     </thead>
     <tbody>

@@ -4,30 +4,36 @@
 
 <?= $this->include('landing/hero_Section') ?>
 
-<section id="about">
-    <div class="container">
-        <h2>About Us</h2>
-        <p>Welcome to TamaFlights! We offer the best flight deals and travel packages to make your journey
-            unforgettable. Our team is dedicated to providing you with the highest level of service and support.</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-</section>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="public/img/book.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="public/img/lounge.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="public/img/planes.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-<section id="services">
-    <div class="container">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Flight Booking</li>
-        </ul>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="container">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need assistance, please feel free to reach out to us.</p>
-        <p>Email: support@tamaflights.com</p>
-        <p>Phone: +123-456-7890</p>
-    </div>
-</section>
+<div class="d-flex justify-content-center mt-4">
+    <a href=<?= base_url() . "about" ?>class="btn btn-primary me-2">About Us</a>
+    <a href=<?= base_url() . "travelInfo" ?>class="btn btn-primary me-2">Travel Info</a>
+</div>
 
 <?= $this->endsection('contents') ?>

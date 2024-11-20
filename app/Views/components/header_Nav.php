@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
             <div class="container">
                 <a href="<?= base_url() ?>" class="navbar-brand text-uppercase fs-5">
-                    <img src="public/img/tamaFlights.png'; ?>" alt="Logo" width="70" class="d-inline-block align-middle">
+                    <img src="public/img/tamaFlights.png" alt="Logo" width="70" class="d-inline-block align-middle">
                     TamaFlights Booking
                 </a>
 
