@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>TAMAFLIGHTS TEMPLATE</title>
+        <title><?php echo $message ?></title>
         <link rel="icon" type="image/ico" href="">
         <!-- Bootstrap/CSS -->
         <link href=" <?php echo BOOTSTRAP.'css/bootstrap.css'; ?> " rel="stylesheet">
